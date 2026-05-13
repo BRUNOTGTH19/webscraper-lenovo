@@ -1,0 +1,21 @@
+{
+  "name": "webscraper-lenovo",
+  "version": "1.0.0",
+  "description": "Extrai notebooks Lenovo do webscraper.io e expõe via API REST",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2",
+    "node-tls-client": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": ["webscraper", "lenovo", "api", "tls-fingerprint"],
+  "license": "MIT"
+}
